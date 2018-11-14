@@ -1,0 +1,632 @@
+/* Cabecera,Pag principal y footer */
+html,body{
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+#franjaazul{
+	width: 100%;
+	height: 20%;
+	text-align:center;
+	background-color: #00afc6;
+}
+
+header{
+	width: 100%;
+	height: 20ex;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	color: #f17aad;
+	font-weight: bold;
+}
+header h4{
+	text-align:center;
+	margin:5px;
+	display:block;
+}
+#p1{
+	width:15%;
+	text-align:left;
+	margin-left: 3%;
+	padding-top:8px;
+	color:white;
+	font-size: 80%;
+	margin-top:0;
+	margin-bottom:0;
+	display: inline;
+}
+#p2{
+	width:15%;
+	text-align:left;
+	margin-left: 3%;
+	padding-top:8px;
+	color:white;
+	font-size: 80%;
+	margin-top:0;
+	margin-bottom:0;
+	display: inline;
+}
+
+#facebookheader{
+	margin-left: 3%;
+	width:25px;
+	height:25px;
+}
+
+#twitterheader{
+	margin-left: 1%;
+	width:25px;
+	height:25px;
+}
+#h4medicos{
+	color:#00AFC6;
+	font-size:110%;
+	font-weight: bold;
+	margin-left:10%;
+	margin-bottom:1ex;
+	width:40%;
+	display:inline;
+}
+#h4pacientes{
+	display:inline;
+	color:#00AFC6;
+	font-size:110%;
+	font-weight: bold;
+	margin-left:32%;
+	margin-bottom:1ex;
+	width:40%;
+}
+.areatotal h3{
+	width:100%;
+	margin:1%;
+	text-align:center;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	color: #f17aad;
+	font-weight: bold;
+}
+.areatotal{
+	width:100%;
+	margin:0;
+	height:35ex;
+}
+
+
+#area-medicos{
+	margin-left:10%;
+	border: 5px solid;
+	border-color:#00AFC6;
+	border-radius: 8px;
+	width: 35%;
+	height: 100%;
+	display:inline;
+	float:none;
+}
+#area-medicos:hover{
+	border-color: #000FFF;
+    transition: all 0.4s ease-in-out;
+}
+
+#area-pacientes:hover{
+	border-color: #000FFF;
+    transition: all 0.4s ease-in-out;
+}
+#area-pacientes{
+	display:inline;
+	margin-right:8%;
+	border: 5px solid;
+	border-color:#00AFC6;
+	border-radius: 8px;
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+#afacebook{
+	text-decoration:none;
+}
+
+footer{
+	margin-top:8%;
+}
+ul{
+	list-style:none;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: block;
+    list-style-type: disc;
+}
+.container{
+	text-align: left;
+	position:relative;
+	height:100%;
+}
+.bottom-nav{
+	background-color: #F17AAD;
+	height:100%;
+	
+}
+.bottom-nav li {
+    display: inline-block;
+    padding-right: 22px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bottom-nav a{
+    color: #e0e0e0;
+    text-decoration:none;
+    font-size: 110%;
+    font-weight: bold;
+}
+.bottom-nav a:hover{
+    color: #000FFF;
+    text-decoration:underline;
+    transition: all 0.4s ease-in-out;
+}
+#enlace1{
+	margin-left: 6%;
+}
+#enlace8{
+	margin-top:1%;
+	margin-left: 40%;
+}
+
+/* Mensajes de Error */
+div.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Login_medicos*/
+#h4introduce{
+	color:#00AFC6;
+	font-size:110%;
+	font-weight: bold;
+	text-align:center;
+}
+#form_medicos,#form_pacientes,#altaPaciente{
+	text-align:center;
+}
+
+input[type=text],input[type=password], input[type=email],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align:center;
+    margin-bottom:25px;
+}
+label{
+	font-weight: bold;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #00AFC6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00FFFF;
+}
+
+#divformloginmedicos {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#divformloginpacientes {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 35%;
+    display: inline-table;
+}
+#tablacitasocupadas{
+	margin-top:8px;
+	margin-left:10%;
+	
+}
+#tablacitaslibres{
+	margin-top:8px;
+	margin-left:10%;
+}
+td, th {
+    border: 1px solid #00AFC6;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#selecciondiamedicos h4{
+	text-align:center;
+	color:#00AFC6;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	
+}
+#formdia{
+	text-align: center;
+}
+#dia{
+	margin-bottom:8px;
+}
+#submitdia{
+	margin-bottom:5%;
+}
+#divtablemedicos{
+	width:100%;
+}
+#citasocupadas{
+	margin-left: 22%;
+	color: #F17AAD;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	display: inline;
+	width: 30%;
+	text-align:center;
+}
+#citasolibres{
+	margin-left: 35%;
+	color: #F17AAD;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	display: inline;
+	width: 30%;
+	text-align:center;
+}
+
+#registrate{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	font-size:110%; 
+}
+
+#altaPaciente input{
+	margin-bottom:30px;
+}
+
+fieldset{
+	margin-left: 2%;
+	margin-right:2%;
+}
+
+#hexitoregistro{
+	width:80%;
+	background-color:#D5D1D2;
+	margin-left: 10%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	border: 5px solid;
+	border-color:green;
+	border-radius:8px;
+	color:green;
+	
+}
+#hfalloregistro{
+	width:80%;
+	background-color:#D5D1D2;
+	margin-left: 10%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	border: 5px solid;
+	border-color:red;
+	border-radius:8px;
+	color:red;
+	
+}
+
+#enlacefallo{
+	text-align:center;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	font-size:100%;
+	
+	
+}
+
+#enlaceexito{
+	text-align:center;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	font-size:100%;
+	
+	
+}
+#divlogo{
+	display:block;
+	width:40%;
+	margin:auto;
+	text-align:center;
+}
+
+#conectadomedico{
+	border:4px solid;
+	border-color:#00AFC6;
+	color:#424242;
+	font-style: italic;
+	text-align:center;
+	border-style: inset;
+	margin-left:3%;
+	margin-top:1%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	background: #A9F5A9; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #A9F5A9 , #F2F2F2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #A9F5A9, #F2F2F2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #A9F5A9, #F2F2F2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #A9F5A9 , #F2F2F2); /* Standard syntax (must be last) */
+	float:left;
+	width:20%;
+	display:inline;
+}
+
+#conectadopaciente{
+	border:4px solid;
+	border-color:#00AFC6;
+	color:#424242;
+	text-align:center;
+	border-style: inset;
+	margin-right:3%;
+	margin-top:1%;
+	font-style: italic;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	background: #A9F5A9; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #A9F5A9 , #F2F2F2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #A9F5A9, #F2F2F2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #A9F5A9, #F2F2F2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #A9F5A9 , #F2F2F2); /* Standard syntax (must be last) */
+	float:right;
+	width:20%;
+	display:inline;
+}
+
+#misproximascitas{
+	color: #F17AAD;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	display: inline;
+	margin-left:37%;
+	width: 30%;
+	text-align:center;
+}
+#tablamisproximascitas{
+	margin-top: 1%;
+	width:40%;
+	margin-right:5%;
+	float:right;
+	
+	
+}
+#divtableproximascitas{
+	padding-top:3%;
+}
+#pedirunacita{
+	color: #F17AAD;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	display: inline;
+	width: 30%;
+	margin-left: 22%;
+	text-align:center;
+}
+#fieldsetpedircita{
+	width:40%;
+	margin-left:5%;
+	display: inline;
+	margin-top:1%;
+	text-align:center;
+}
+#clinica,#medico,#fecha,#hora{
+	width:94%;
+	margin-left:3%;
+	height:5ex;
+	margin-top:2%;
+	margin-bottom:3%;
+	text-align:center;
+}
+#grache{
+	width:90%;
+	background-color:#D5D1D2;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	margin-left:5%;
+	border: 5px solid;
+	border-color:green;
+	border-radius:8px;
+	color:green;
+}
+#automaticamente,#pincha{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	font-size:110%; 
+}
+.strongpass {
+	background-color: green
+}
+
+.middlepass {
+	background-color: yellow
+}
+
+.weakpass {
+	background-color: red
+}
+
+.nanpass {
+	background-color: yellow;
+}
+#pedircita{
+	width: 90%;
+    background-color: #00AFC6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+
+#pedircita:hover{
+	background-color: #00FFFF;
+}
+
+#navpaginacionocupadas{
+	width:35%;
+	margin-left:10%;
+	margin-bottom:1%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	display: inline-block;
+	
+}
+#enlaces{
+	margin-bottom:5px;
+}
+#enlacesdisponibles{
+	margin-bottom:5px;
+}
+#navpaginaciondisponibles{
+	width:35%;
+	margin-left:10%;
+	margin-bottom:1%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	text-align:center;
+	display: inline-block;
+}
+
+#about{
+	text-align:center;
+}
+
+#about h3{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	color: #f17aad;
+	font-weight: bold;
+}
+
+#about h4{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	color: #00AFC6;
+	font-weight: bold;
+}
+#about p{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	margin-left:5%;
+	margin-right: 5%;
+	text-align:left;
+}
+#about img{
+	width: 90%;
+	height:auto;
+}
+
+.divcl1{
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	margin-left:25%;
+	margin-top:2%;
+	display: inline-block;
+	width:20%;
+	color: #000000;
+	font-weight: bold;
+	border:5px solid;
+	border-radius:8px;
+	border-color: #00AFC6;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+.divcl2{
+	background-color:#CCCCCC;
+	text-align:center;
+	margin-left:10%;
+	font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	display: inline-block;
+	width:20%;
+	margin-top:2%;
+	color: black;
+	font-weight: bold;
+	border:5px solid;
+	border-radius:8px;
+	border-color: #00AFC6;
+}
+/* ----------------------------------------------- */
+/* --------------- Responsive menu ---------------*/
+/* -----------------------------------------------*/
+
+/* Eliminar margenes y padding de la lista, poner un fondo negro */
+ul.topnav {
+	border:2px solid;
+	border-color:#919191;
+	border-radius:8px;
+    list-style-type: none;
+    margin: 0;
+    margin-left:1em;
+    margin-right:1em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Los elementos de la lista ocupan todo el ancho si flotan a la izquierda */
+ul.topnav li {float: left;}
+
+/* Estilo de los vinculos */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Cambiar el color del fondo al pasar el mouse por encima */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Esconder el boton del men� */
+ul.topnav li.icon {display: none;}
+
+/* Cuando la pantalla es menor de 680 pixeles, esconder todos los items menos el home. Mostras el vinculo al menu */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+
+}
+
+/* Poner la clase responsive para el que javascript muestre los vinculos al pulsar en el */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
